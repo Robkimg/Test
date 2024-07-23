@@ -1,0 +1,64 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Blade Hub", "Serpent")
+
+local Tab = Window:NewTab("Unviersal")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Infinite Yield", "Loads Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Azure Modded", "Loads Azure Modded", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))() 
+    print("Clicked")
+end)
+
+Section:NewButton("Polakya", "Loads Polakya", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pixelheadx/Polakya/main/Bestscript.md"))();
+    print("Clicked")
+end)
+
+Section:NewButton("Spaceware", "Loads Spaceware", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Maxiiiiiiiiiiiiiiiiiiiiiii/spaceware/main/spaceware'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Da Ware", "Loads Da Ware", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statueware/main/dahoodv1.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Agent", "Loads Agent", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))() 
+    print("Clicked")
+end)
+
+Section:NewButton("Vortex", "Loads Vortex", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))() 
+    print("Clicked")
+end)
+
+Section:NewButton("Aura-x-remake", "Loads Aura-x-remake", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))() 
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Credits to")
+
+local Section = Tab:NewSection("Credits to Hasher")
+
+local Tab = Window:NewTab("Discord Server")
+
+local Section = Tab:NewSection("https://discord.gg/eSbj7PSXt9")
+
+local Tab = Window:NewTab("Scripts")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Dark Hub", "Loads Dark hub", function()
+loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+    print("Clicked")
+end)
